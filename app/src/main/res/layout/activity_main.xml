@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Button to import a photo -->
+    <Button
+        android:id="@+id/btnImportPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Import Photo" />
+
+    <!-- Small box showing the photo name -->
+    <TextView
+        android:id="@+id/tvPhotoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Photo Name"
+        android:padding="16dp"
+        android:background="#EEE"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button to share the imported photo -->
+    <Button
+        android:id="@+id/btnSharePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Photo"
+        android:layout_marginTop="16dp"/>
+
+    <!-- ImageView to display the photo in the app -->
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerInside"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
